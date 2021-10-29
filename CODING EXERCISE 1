@@ -1,0 +1,23 @@
+package selfProgramming;
+import java.util.Scanner;
+public class GaaMileage {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int milea;
+		double gallone, mpg;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter the number of milea: ");
+		milea = sc.nextInt();
+		System.out.print("Enter the gallons of fuel used: ");
+		gallone = sc.nextDouble();
+		
+		mpg = milea / gallone;
+		
+		System.out.println("Milea Per Gallon: " + mpg);
+
+	}
+
+}
