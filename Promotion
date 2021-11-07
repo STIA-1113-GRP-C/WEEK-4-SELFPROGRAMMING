@@ -1,0 +1,23 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Promotion {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		int count;
+		double sum, result;
+		
+		System.out.print("Enter the count : ");
+		count = sc.nextInt();
+		System.out.print("Enter the sum : ");
+		sum = sc.nextDouble();
+		
+		result = sum / count;
+		
+		System.out.print("The result is " + result);
+
+	}
+
+}
